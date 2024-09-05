@@ -1,0 +1,70 @@
+/* Общие стили для страницы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+    color: white;
+    background-color: #111;
+}
+
+/* Параллакс-эффект */
+.parallax {
+    background-image: url('your-dark-background-image.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Основной заголовок и подзаголовок */
+.main-title {
+    font-size: 8rem;
+    color: white;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: #ff7f00; /* Оранжевый цвет */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Секция с кнопкой */
+.order-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+}
+
+.order-button {
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #fff;
+    border: 2px solid #ff7f00; /* Оранжевая рамка */
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.order-button:hover {
+    color: #ff7f00;
+    background-color: #fff;
+    border-color: #ff7f00;
+    transform: scale(1.05);
+}
+
