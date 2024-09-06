@@ -25,6 +25,8 @@ body, html {
     align-items: center;
     justify-content: center;
     text-align: center;
+    
+    
 }
 
 /* Основной заголовок и подзаголовок */
@@ -37,7 +39,7 @@ body, html {
 
 .subtitle {
     font-size: 2rem;
-    color: #532a7b;
+    color: #ffffff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -52,23 +54,38 @@ body, html {
     
 }
 
-.order-button {
-    width: 200px;
-    padding: 20px 40px;
-    font-size: 1.5rem;
-    color: #532a7b;
-    background-color: #fff;
-    border: 2px solid #532a7b;
-    background: #fff;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 15px;
+.carousel {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    height: 30vw;
 }
 
-.order-button:hover {
-    color: #ff7f00;
-    background-color: #fff;
-    border-color: #ff7f00;
-    transform: scale(1.05);
+.carousel-item {
+    flex: 0 0 200px;
+    margin: 0 15px;
+    text-align: center;
+    transition: transform 0.5s ease;
+    scroll-snap-align: center;
+
+}
+.carousel-item:hover{
+margin-right: -100px;
+
 }
 
+.carousel-item img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
