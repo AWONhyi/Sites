@@ -82,22 +82,15 @@ p{
     margin-top: -20px;
 }
 .carousel-control-next{
-margin-top: 320px;
-margin-right: 10%;
-height: 40px;
-width: 40px;
-background-color: #ffffff;
-border-radius: 8px;
+width: 150%;
+
 }
 .carousel-control-prev{
-    margin-top: 320px;
-    margin-right: 10%;
-    height: 40px;
-    width: 40px;
-    margin-left: 10%;
-    background-color: #ffffff;
-    border-radius: 8px;
+width: 150px;
+
+overflow: 100%;
 }
+
 .carousel-indicators{
 margin-bottom: -60px;
 
