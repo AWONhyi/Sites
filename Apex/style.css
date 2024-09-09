@@ -45,48 +45,46 @@ body, html {
 }
 
 /* Секция с кнопкой */
-.order-section {
+.slaidy {
     height: 100vh;
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     background-color: #222;
-
-    
+    width: 100vw;
 }
-
-.carousel {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    height: 30vw;
+.carousel-inner{
+    position: relative;
+    width: 80vw;
+    border-radius: 20px;
+    margin: 0 auto;
+    top: 70px;
 }
-
-.carousel-item {
-    flex: 0 0 200px;
-    margin: 0 15px;
-    text-align: center;
-    transition: transform 0.5s ease;
-    scroll-snap-align: center;
-
+.carousel-control-prev{
+    position: relative;
+    border: #ffffff;
 }
-.carousel-item:hover{
-margin-right: -100px;
-
+.Personadzi{
+    position: relative;
+    margin: auto 0;
+    width: 20vw;
+    font-size: 250%;
+    left: 43%;
+    top: 35px;
+    text-shadow: 0 0 10px rgba(221, 36, 36, 0.5); 
 }
-
-.carousel-item img {
-    width: 500px;
-    height: 400px;
-    object-fit: cover;
-    transition: transform 0.5s ease;
+h5{
+  text-shadow: 0 0 10px rgba(221, 36, 36, 0.5); 
+  color: #ffffff;
+  font-size: 60px;
 }
+p{
+    text-shadow: 0 0 10px rgba(221, 36, 36, 0.5); 
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.carousel-control-left{
+color: #ffffff;
 
-.carousel-item p {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #333;
 }
