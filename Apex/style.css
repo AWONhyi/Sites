@@ -44,7 +44,7 @@ body, html {
   
 }
 
-/* Секция с кнопкой */
+
 .slaidy {
     height: 100vh;
     
@@ -52,7 +52,7 @@ body, html {
     justify-content: center;
     background-color: #222;
     width: 100vw;
-}
+} 
 .carousel-inner{
     position: relative;
     width: 80vw;
@@ -60,16 +60,13 @@ body, html {
     margin: 0 auto;
     top: 70px;
 }
-.carousel-control-prev{
-    position: relative;
-    border: #ffffff;
-}
+
 .Personadzi{
     position: relative;
     margin: auto 0;
     width: 20vw;
     font-size: 250%;
-    left: 43%;
+    left: 42%;
     top: 35px;
     text-shadow: 0 0 10px rgba(221, 36, 36, 0.5); 
 }
@@ -84,7 +81,24 @@ p{
     font-size: 20px;
     margin-top: -20px;
 }
-.carousel-control-left{
-color: #ffffff;
+.carousel-control-next{
+margin-top: 320px;
+margin-right: 10%;
+height: 40px;
+width: 40px;
+background-color: #ffffff;
+border-radius: 8px;
+}
+.carousel-control-prev{
+    margin-top: 320px;
+    margin-right: 10%;
+    height: 40px;
+    width: 40px;
+    margin-left: 10%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.carousel-indicators{
+margin-bottom: -60px;
 
 }
